@@ -8,12 +8,15 @@ import android.view.ViewGroup;
 
 
 public class menu1_Fragment extends android.support.v4.app.Fragment{
+    private String finalURL = "https://www.reddit.com/r/FlashTV/.rss";
+    private HandleXML obj;
     View rootview;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootview = inflater.inflate(R.layout.menu1_layout, container, false);
         return rootview;
-//        return super.onCreateView(inflater, container, savedInstanceState);
+
+
     }
 }
